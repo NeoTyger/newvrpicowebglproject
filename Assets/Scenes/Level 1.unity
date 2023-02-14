@@ -207,6 +207,22 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &30480576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30480569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39f826c0c55e51a4a989c375a339a8a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPlaced: 
+  caparrotsInPedestals: 
+  placeHolders: []
+  pickupRange: 5
 --- !u!1 &38942007
 GameObject:
   m_ObjectHideFlags: 0
@@ -3315,7 +3331,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1999476686}
+      - m_Target: {fileID: 30480569}
         m_TargetAssemblyTypeName: 
         m_MethodName: 
         m_Mode: 1
