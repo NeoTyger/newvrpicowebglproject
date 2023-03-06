@@ -16,6 +16,7 @@ public class PlaceHolderChecker : MonoBehaviour
     private bool win = false;
     
     [SerializeField] private float pickupRange = 5.0f;
+    
     // Start is called before the first frame update
     void Start()
     {
