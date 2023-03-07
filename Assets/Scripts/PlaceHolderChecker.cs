@@ -84,4 +84,19 @@ public class PlaceHolderChecker : MonoBehaviour
         yield return new WaitForSecondsRealtime(0.05f);
         transform.position += new Vector3(0, 0.05f, 0);
     }
+    
+    public void ObjectsInPedestalsChecker()
+    {
+        for (int i = 0; i < objectPlaced.Count; i++)
+        {
+            if (objectPlaced[i])
+            {
+                placeHolders[i].GetComponent<MeshRenderer>().material.color = Color.green;
+            }
+            else
+            {
+                placeHolders[i].GetComponent<MeshRenderer>().material.color = Color.red;
+            }
+        }
+    }
 }

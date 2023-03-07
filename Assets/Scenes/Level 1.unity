@@ -225,7 +225,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30480569}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 39f826c0c55e51a4a989c375a339a8a9, type: 3}
   m_Name: 
@@ -640,8 +640,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 86064194}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 4.921}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -649,10 +649,10 @@ RectTransform:
   - {fileID: 1999476687}
   m_Father: {fileID: 0}
   m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9.091, y: 2.8}
+  m_AnchoredPosition: {x: -11.94, y: 2.8}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &157072112
@@ -1116,7 +1116,7 @@ PrefabInstance:
     - target: {fileID: 3453268900264797799, guid: b7b25c72a99ee894ab21f469443d85f1,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3453268900264797803, guid: b7b25c72a99ee894ab21f469443d85f1,
         type: 3}
@@ -1279,8 +1279,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -25}
-  m_SizeDelta: {x: 60, y: 60}
+  m_AnchoredPosition: {x: 0, y: -60.2}
+  m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &902731893
 MonoBehaviour:
@@ -1296,7 +1296,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -3453,7 +3453,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1999476687
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3644,7 +3644,37 @@ PrefabInstance:
     - target: {fileID: 6899973628147766791, guid: c452ade961fa6d14d95f4a9ba6909307,
         type: 3}
       propertyPath: nomsPedestals.Array.data[0]
-      value: Chico
+      value: Xico
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899973628147766791, guid: c452ade961fa6d14d95f4a9ba6909307,
+        type: 3}
+      propertyPath: nomsPedestals.Array.data[1]
+      value: Grouxo
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899973628147766791, guid: c452ade961fa6d14d95f4a9ba6909307,
+        type: 3}
+      propertyPath: nomsPedestals.Array.data[6]
+      value: Turc
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899973628147766791, guid: c452ade961fa6d14d95f4a9ba6909307,
+        type: 3}
+      propertyPath: nomsPedestals.Array.data[7]
+      value: Negreta
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899973628147766791, guid: c452ade961fa6d14d95f4a9ba6909307,
+        type: 3}
+      propertyPath: nomsPedestals.Array.data[8]
+      value: Negret
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899973628147766791, guid: c452ade961fa6d14d95f4a9ba6909307,
+        type: 3}
+      propertyPath: nomsPedestals.Array.data[9]
+      value: Pallasso vermell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899973628147766791, guid: c452ade961fa6d14d95f4a9ba6909307,
+        type: 3}
+      propertyPath: nomsPedestals.Array.data[10]
+      value: Pallasso negre
       objectReference: {fileID: 0}
     - target: {fileID: 6899973628147766791, guid: c452ade961fa6d14d95f4a9ba6909307,
         type: 3}
