@@ -8,6 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Options Menu.unity
+    guid: 3a2b639c7a5c0954393636b8e61d93c0
+  - enabled: 1
+    path: Assets/Scenes/Level 1.unity
+    guid: 8d066f28c86d08545bcd633679582e45
+  - enabled: 1
+    path: Assets/Scenes/Game Over.unity
+    guid: 279695f7cde5fa049b4760a10570c4aa
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5dfbaecea5bf99a4f8a3d591375eeb0c,
       type: 2}
