@@ -13,28 +13,22 @@ public class GameOverManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        btnRestart.onClick.AddListener(Restart);
-        btnMenu.onClick.AddListener(Menu);
-        btnQuit.onClick.AddListener(Quit);
+        btnRestart.onClick.AddListener(RestartGame);
+        btnMenu.onClick.AddListener(ToMainMenu);
+        btnQuit.onClick.AddListener(QuitGame);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void RestartGame()
     {
-        
+        SceneManager.LoadScene("Level 1");
     }
     
-    private void Restart()
+    private void ToMainMenu()
     {
-        SceneManager.LoadScene("Level1");
-    }
-    
-    private void Menu()
-    {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Main Menu");
     }
 
-    private void Quit()
+    private void QuitGame()
     {
 #if UNITY_EDITOR
         if(EditorApplication.isPlaying) 
